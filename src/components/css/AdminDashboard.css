@@ -1,0 +1,153 @@
+/* Updated CSS for Sidebar */
+.admin-sidebar {
+  background-color: #202020;
+  width: 200px; /* Adjust the width as needed */
+  height: 100%; /* Set the sidebar height to fill the container */
+  
+  color: #fff; /* Text color */
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+
+}
+
+.roleButton {
+  background-color: #af9d39;
+  color:#1f1d1d;
+  font-weight: bold;
+
+}
+
+.sidebar-options {
+  margin-bottom: 10px;
+ 
+} */
+
+
+
+
+
+
+.logout-button {
+  margin-top: auto; /* Push the button to the bottom */
+  margin-bottom: 35px;
+}
+
+/* Updated CSS for Dashboard Content */
+.admin-dashboard {
+  display: flex; /* Use flexbox to create a layout with sidebar and content */
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #af9d39;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 100vh;
+}
+
+.listt {
+  margin-top: 20px;
+}
+
+.optionSport {
+  color: #202020;
+}
+
+.selectSport {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.admin-main-content {
+  margin-left: 300px ;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+.admin-section {
+  margin-top: 2px;
+  padding: 20px;
+  background-color: #202020;
+  border-radius: 5px;
+  width: 800px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-left: 300px;
+}
+
+.form-input {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #af9d39;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.equipment-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #1f1d1d;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h3 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.venue-form {
+  margin-top: 80px;
+}
+
+.sidebar-options button {
+  background-color:#af9d39 ;
+  color:#1f1d1d;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sidebar-options button:hover {
+  background-color: #ddd1d1;
+}

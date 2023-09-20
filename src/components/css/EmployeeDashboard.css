@@ -1,0 +1,190 @@
+
+  /* EmployeeNavbar.css */
+
+.employee-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a7c30; /* Change to your preferred background color */
+    padding: 10px 20px;
+    color: #2b2929; /* Change to your preferred text color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+
+  .company-info {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  
+  .company-name {
+    font-size: 28px; /* Adjust the font size */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .role-button {
+    background-color: #8a7c30;
+    border: none;
+    color: #222121; /* Text color for the button */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 10px;
+  
+  }
+  
+  .role-button:hover {
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Background color for the search bar */
+    border-radius: 10px;
+    padding: 6px;
+    margin-right: 20px;
+  }
+  
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+  .search-bar {
+    border: none;
+    color:#8a7c30;
+    padding: 4px 8px;
+    width: 200px; /* Adjust the width of the search input */
+    background-color: #333;
+  }
+  
+  .search-button {
+    background-color: #333; /* Background color for the search button */
+    color: #fff; /* Text color for the search button */
+    border: none;
+    padding: 6px 12px;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin: 5px 1px;
+  }
+  
+  .search-button:hover {
+    background-color: #555; /* Background color on hover */
+  }
+
+  .welcome-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures that the welcome text is centered vertically */
+    
+  }
+  
+  .welcome-text {
+    
+    text-align: center;
+  }
+  .company-logo {
+    width: 90px; /* Adjust the logo size as needed */
+    height: 90px;
+    margin-right: 25px;
+    border-radius: 50px;
+  }
+
+  .optionEquipment {
+    color: #202020;
+  }
+  .employee-section {
+    margin-top: 2px;
+    padding: 20px;
+    background-color: #202020;
+    border-radius: 5px;
+    width: 650px;
+    margin: auto;
+    margin-top: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(128, 124, 48, 0.2);
+  }
+
+  .sport-section {
+    margin-top: 20px;
+  }
+  
+  
+  /* Media query for screens 768px and below (tablet and mobile) */
+@media (max-width: 768px) {
+    .employee-navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .company-info {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-right {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .role-button {
+      margin: 10px 0;
+   
+    }
+  
+    .search-bar-container {
+      margin-right: 0;
+      width: 100%;
+    }
+  
+    .search-bar {
+      width: 100%;
+    }
+  
+    .search-button {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Media query for screens 480px and below (mobile) */
+  @media (max-width: 480px) {
+    .company-name {
+      font-size: 24px;
+    }
+  
+    .company-logo {
+      width: 60px;
+      height: 60px;
+      margin-right: 15px;
+    }
+  
+    .welcome-text {
+      font-size: 18px;
+    }
+  
+    .employee-section {
+      width: 90%;
+    }
+  
+    .role-button {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+  }
+  

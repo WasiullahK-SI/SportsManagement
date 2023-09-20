@@ -1,0 +1,231 @@
+/* styles.css */
+body {
+    margin: 0px 0px 10px 0px;
+}
+/* styles.css */
+
+/* Styles for LoginForm */
+.login-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .role-selection {
+    margin-top: 20px;
+  }
+  
+  .role-botton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for AdminLoginForm and EmployeeLoginForm (you can customize these further) */
+
+  .logo {
+    width: 3.5rem;
+    border-radius: 40px;
+    margin: auto;
+  }
+  .logo-title {
+    color: #8a7c30;
+    line-height: 1px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+
+  }
+
+  .up{
+    margin: auto;
+
+  }
+  .down {
+    margin-left: -11px;
+  }
+
+  .form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+  }
+  .powered-by {
+    margin-bottom: 5px;
+    margin-top: 50px;
+    color: #8a7f3f ;
+  }
+  .form-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #8a7f3f;
+  }
+  
+  .form-input {
+    margin: 10px 0;
+    margin-right: 15px;
+  }
+  
+  .form-input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #615825;
+    font-weight: 1000;
+    
+  }
+  
+  .form-input input {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+
+/* Styles for LoginForm */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    background-color:  #202020;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 800px; /* Increase the max-width as needed */
+    margin: 0 auto; /* Center the login box horizontally */
+  }
+  
+  .login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #8a7f3f;
+  }
+  
+  .role-selection {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .role-bottons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .role-botton {
+    background-color: #af9d39;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+ 
+  
+  .role-botton a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  
+  /* Additional styling for hover effect */
+  .role-botton:hover {
+    background-color: #af9d39;
+    transform: scale(1.05);
+  }
+
+  @media screen and (max-width: 600px) {
+    .login-box {
+      width: 90%;
+    }
+  
+    .logo-title {
+      font-size: 1.2rem;
+    }
+  
+    .login-title {
+      font-size: 1.5rem;
+    }
+  
+    .role-botton {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+      margin: 5px;
+    }
+  }
+/* styles.css (or dark-theme.css for dark theme styles) */
+
+/* styles.css (or dark-theme.css) */
+
+/* Navbar styles with gold and black color palette */
+.navbar {
+    background-color: #000; /* Black background */
+    color: #ffd700; /* Gold text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo a {
+    text-decoration: none;
+    color: #ffd700; /* Gold text color for logo */
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #ffd700; /* Gold text color for navigation links */
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+
+/* admin section */
+
+
+.error-message {
+  color: #8a7c30;
+}
+
+  
